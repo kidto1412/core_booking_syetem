@@ -40,3 +40,30 @@
 2025-10-18T00:02:38.623+07:00  INFO 9394 --- [BookingSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-10-18T00:02:38.638+07:00  INFO 9394 --- [BookingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-10-18T00:02:38.644+07:00  INFO 9394 --- [BookingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-18T00:17:33.724+07:00  INFO 13400 --- [BookingSystem] [main] c.e.demo.BookingSystemApplicationTests   : Starting BookingSystemApplicationTests using Java 17.0.12 with PID 13400 (started by user in /Users/user/backend-java/booking_system)
+2025-10-18T00:17:33.726+07:00  INFO 13400 --- [BookingSystem] [main] c.e.demo.BookingSystemApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2025-10-18T00:17:34.929+07:00  INFO 13400 --- [BookingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-18T00:17:35.059+07:00  INFO 13400 --- [BookingSystem] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 108 ms. Found 1 JPA repository interface.
+2025-10-18T00:17:35.890+07:00  INFO 13400 --- [BookingSystem] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-18T00:17:35.938+07:00  INFO 13400 --- [BookingSystem] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-18T00:17:35.979+07:00  INFO 13400 --- [BookingSystem] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-18T00:17:36.332+07:00  INFO 13400 --- [BookingSystem] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-18T00:17:36.364+07:00  INFO 13400 --- [BookingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-18T00:17:36.635+07:00  INFO 13400 --- [BookingSystem] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3ef2b8e5
+2025-10-18T00:17:36.637+07:00  INFO 13400 --- [BookingSystem] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-18T00:17:36.681+07:00  WARN 13400 --- [BookingSystem] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-18T00:17:36.722+07:00  INFO 13400 --- [BookingSystem] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-18T00:17:37.920+07:00  INFO 13400 --- [BookingSystem] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-18T00:17:38.447+07:00  INFO 13400 --- [BookingSystem] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18T00:17:39.197+07:00  WARN 13400 --- [BookingSystem] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-18T00:17:40.012+07:00  INFO 13400 --- [BookingSystem] [main] c.e.demo.BookingSystemApplicationTests   : Started BookingSystemApplicationTests in 6.993 seconds (process running for 8.499)
+2025-10-18T00:17:41.272+07:00  INFO 13400 --- [BookingSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-18T00:17:41.284+07:00  INFO 13400 --- [BookingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-18T00:17:41.291+07:00  INFO 13400 --- [BookingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
