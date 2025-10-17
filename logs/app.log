@@ -1475,3 +1475,1043 @@ Caused by: java.lang.Error: Unresolved compilation problem:
 2025-10-17T16:07:48.093+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Started BookingSystemApplication in 1.96 seconds (process running for 648.332)
 2025-10-17T16:07:48.120+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Books : [User{id=1, username='Fahriz', email='fahriz@gmail.com', role='Customer'}]
 2025-10-17T16:07:48.126+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T16:50:19.489+07:00  INFO 10121 --- [BookingSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 13 class path changes (0 additions, 13 deletions, 0 modifications)
+2025-10-17T16:50:19.644+07:00  INFO 10121 --- [BookingSystem] [Thread-22] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T16:50:19.703+07:00  INFO 10121 --- [BookingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T16:50:19.761+07:00  INFO 10121 --- [BookingSystem] [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T16:50:19.783+07:00  INFO 10121 --- [BookingSystem] [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2025-10-17T16:50:19.815+07:00  INFO 10121 --- [BookingSystem] [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2025-10-17T16:50:21.277+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 10121 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T16:50:21.296+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T16:50:22.421+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T16:50:22.475+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
+2025-10-17T16:50:23.310+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T16:50:23.335+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T16:50:23.362+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T16:50:23.427+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-17T16:50:23.427+07:00  INFO 10121 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2101 ms
+2025-10-17T16:50:23.699+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T16:50:23.710+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T16:50:23.769+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T16:50:23.777+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2025-10-17T16:50:23.908+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@7be724ef
+2025-10-17T16:50:23.909+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2025-10-17T16:50:23.936+07:00  WARN 10121 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T16:50:23.941+07:00  INFO 10121 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T16:50:24.420+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-17T16:50:24.781+07:00  INFO 10121 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T16:50:25.189+07:00  WARN 10121 --- [BookingSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-17T16:50:25.418+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/booking_db'
+2025-10-17T16:50:25.472+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T16:50:25.494+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 19090 (http) with context path '/'
+2025-10-17T16:50:25.507+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Started BookingSystemApplication in 4.689 seconds (process running for 3205.748)
+2025-10-17T16:50:25.574+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Books : [User{id=1, username='Fahriz', email='fahriz@gmail.com', role='Customer'}]
+2025-10-17T16:50:25.583+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T17:19:26.503+07:00  INFO 10121 --- [BookingSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-10-17T17:19:27.221+07:00  INFO 10121 --- [BookingSystem] [Thread-29] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:19:27.243+07:00  INFO 10121 --- [BookingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:19:27.262+07:00  INFO 10121 --- [BookingSystem] [Thread-29] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:19:27.283+07:00  INFO 10121 --- [BookingSystem] [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2025-10-17T17:19:27.290+07:00  INFO 10121 --- [BookingSystem] [Thread-29] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2025-10-17T17:19:28.326+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 10121 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:19:28.336+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:19:28.867+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:19:28.915+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2025-10-17T17:19:29.314+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:19:29.324+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:19:29.325+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:19:29.360+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:19:29.361+07:00  INFO 10121 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 982 ms
+2025-10-17T17:19:29.462+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:19:29.469+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:19:29.496+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:19:29.497+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2025-10-17T17:19:29.566+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@323c42a3
+2025-10-17T17:19:29.567+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2025-10-17T17:19:29.572+07:00  WARN 10121 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:19:29.577+07:00  INFO 10121 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:19:29.830+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-17T17:19:30.060+07:00  INFO 10121 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:19:30.220+07:00  WARN 10121 --- [BookingSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-17T17:19:30.327+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/booking_db'
+2025-10-17T17:19:30.356+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:19:30.377+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 19090 (http) with context path '/'
+2025-10-17T17:19:30.384+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Started BookingSystemApplication in 2.672 seconds (process running for 4950.697)
+2025-10-17T17:19:30.421+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Books : [User{id=1, username='Fahriz', email='fahriz@gmail.com', role='Customer'}]
+2025-10-17T17:19:30.429+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-17T17:19:46.361+07:00  INFO 10121 --- [BookingSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T17:19:46.379+07:00  INFO 10121 --- [BookingSystem] [Thread-33] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:19:46.386+07:00  INFO 10121 --- [BookingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:19:46.395+07:00  INFO 10121 --- [BookingSystem] [Thread-33] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:19:46.401+07:00  INFO 10121 --- [BookingSystem] [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2025-10-17T17:19:46.406+07:00  INFO 10121 --- [BookingSystem] [Thread-33] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2025-10-17T17:19:46.850+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 10121 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:19:46.857+07:00  INFO 10121 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:19:47.138+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:19:47.181+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2025-10-17T17:19:47.455+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:19:47.465+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:19:47.465+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:19:47.481+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:19:47.482+07:00  INFO 10121 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 602 ms
+2025-10-17T17:19:47.547+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:19:47.553+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:19:47.570+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:19:47.572+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2025-10-17T17:19:47.616+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection org.postgresql.jdbc.PgConnection@7de2c01a
+2025-10-17T17:19:47.617+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2025-10-17T17:19:47.624+07:00  WARN 10121 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:19:47.627+07:00  INFO 10121 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:19:47.691+07:00 ERROR 10121 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+2025-10-17T17:19:47.692+07:00  WARN 10121 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+2025-10-17T17:19:47.693+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2025-10-17T17:19:47.695+07:00  INFO 10121 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2025-10-17T17:19:47.696+07:00  INFO 10121 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:19:47.704+07:00  INFO 10121 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:19:47.708+07:00 ERROR 10121 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1638) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1652) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1613) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1604) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1842) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:20:37.450+07:00  INFO 26382 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 26382 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:20:37.453+07:00  INFO 26382 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:20:37.573+07:00  INFO 26382 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:20:37.575+07:00  INFO 26382 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:20:38.913+07:00  INFO 26382 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:20:39.030+07:00  INFO 26382 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interface.
+2025-10-17T17:20:40.057+07:00  INFO 26382 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:20:40.075+07:00  INFO 26382 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:20:40.075+07:00  INFO 26382 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:20:40.136+07:00  INFO 26382 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:20:40.137+07:00  INFO 26382 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2560 ms
+2025-10-17T17:20:40.438+07:00  INFO 26382 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:20:40.487+07:00  INFO 26382 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:20:40.515+07:00  INFO 26382 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:20:40.793+07:00  INFO 26382 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:20:40.831+07:00  INFO 26382 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:20:41.065+07:00  INFO 26382 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b783b6d
+2025-10-17T17:20:41.068+07:00  INFO 26382 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:20:41.100+07:00  WARN 26382 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:20:41.133+07:00  INFO 26382 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:20:41.316+07:00 ERROR 26382 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+2025-10-17T17:20:41.323+07:00  WARN 26382 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+2025-10-17T17:20:41.326+07:00  INFO 26382 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:20:41.378+07:00  INFO 26382 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:20:41.383+07:00  INFO 26382 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:20:41.413+07:00  INFO 26382 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:20:41.446+07:00 ERROR 26382 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1638) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1652) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1613) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1604) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1842) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:20:43.140+07:00  INFO 26414 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 26414 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:20:43.145+07:00  INFO 26414 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:20:43.279+07:00  INFO 26414 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:20:43.280+07:00  INFO 26414 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:20:44.606+07:00  INFO 26414 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:20:44.710+07:00  INFO 26414 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interface.
+2025-10-17T17:20:45.707+07:00  INFO 26414 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:20:45.722+07:00  INFO 26414 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:20:45.723+07:00  INFO 26414 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:20:45.780+07:00  INFO 26414 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:20:45.780+07:00  INFO 26414 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2499 ms
+2025-10-17T17:20:46.098+07:00  INFO 26414 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:20:46.140+07:00  INFO 26414 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:20:46.167+07:00  INFO 26414 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:20:46.456+07:00  INFO 26414 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:20:46.493+07:00  INFO 26414 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:20:46.734+07:00  INFO 26414 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@61bc4743
+2025-10-17T17:20:46.736+07:00  INFO 26414 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:20:46.772+07:00  WARN 26414 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:20:46.821+07:00  INFO 26414 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:20:47.010+07:00 ERROR 26414 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+2025-10-17T17:20:47.015+07:00  WARN 26414 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+2025-10-17T17:20:47.018+07:00  INFO 26414 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:20:47.046+07:00  INFO 26414 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:20:47.051+07:00  INFO 26414 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:20:47.075+07:00  INFO 26414 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:20:47.105+07:00 ERROR 26414 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1638) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1652) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1613) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1604) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1842) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:20:48.803+07:00  INFO 26445 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 26445 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:20:48.806+07:00  INFO 26445 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:20:48.949+07:00  INFO 26445 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:20:48.951+07:00  INFO 26445 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:20:50.230+07:00  INFO 26445 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:20:50.339+07:00  INFO 26445 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2025-10-17T17:20:51.355+07:00  INFO 26445 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:20:51.371+07:00  INFO 26445 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:20:51.372+07:00  INFO 26445 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:20:51.456+07:00  INFO 26445 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:20:51.458+07:00  INFO 26445 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2505 ms
+2025-10-17T17:20:51.867+07:00  INFO 26445 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:20:51.913+07:00  INFO 26445 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:20:51.949+07:00  INFO 26445 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:20:52.221+07:00  INFO 26445 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:20:52.259+07:00  INFO 26445 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:20:52.510+07:00  INFO 26445 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b783b6d
+2025-10-17T17:20:52.513+07:00  INFO 26445 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:20:52.550+07:00  WARN 26445 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:20:52.599+07:00  INFO 26445 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:20:52.822+07:00 ERROR 26445 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+2025-10-17T17:20:52.831+07:00  WARN 26445 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+2025-10-17T17:20:52.834+07:00  INFO 26445 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:20:52.888+07:00  INFO 26445 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:20:52.896+07:00  INFO 26445 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:20:52.921+07:00  INFO 26445 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:20:52.956+07:00 ERROR 26445 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Collection 'com.example.demo.entity.User.bookings' is 'mappedBy' a property named 'users' which does not exist in the target entity 'com.example.demo.entity.Booking'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1638) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1652) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1613) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1604) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1842) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:21:33.947+07:00  INFO 26581 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 26581 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:21:33.950+07:00  INFO 26581 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:21:34.095+07:00  INFO 26581 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:21:34.096+07:00  INFO 26581 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:21:35.441+07:00  INFO 26581 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:21:35.556+07:00  INFO 26581 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 1 JPA repository interface.
+2025-10-17T17:21:36.525+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:21:36.545+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:21:36.546+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:21:36.602+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:21:36.602+07:00  INFO 26581 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2505 ms
+2025-10-17T17:21:36.914+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:21:36.969+07:00  INFO 26581 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:21:36.996+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:21:37.289+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:21:37.328+07:00  INFO 26581 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:21:37.565+07:00  INFO 26581 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5971bb36
+2025-10-17T17:21:37.567+07:00  INFO 26581 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:21:37.601+07:00  WARN 26581 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:21:37.663+07:00  INFO 26581 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:21:38.658+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-17T17:21:38.822+07:00  INFO 26581 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:21:39.218+07:00  WARN 26581 --- [BookingSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-17T17:21:39.982+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/booking_db'
+2025-10-17T17:21:40.095+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:21:40.225+07:00  INFO 26581 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 19090 (http) with context path '/'
+2025-10-17T17:21:40.248+07:00  INFO 26581 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Started BookingSystemApplication in 7.155 seconds (process running for 8.091)
+2025-10-17T17:21:40.421+07:00  INFO 26581 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Books : [User{id=1, username='Fahriz', email='fahriz@gmail.com', role='Customer'}]
+2025-10-17T17:22:20.587+07:00  INFO 26581 --- [BookingSystem] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:22:20.608+07:00  INFO 26581 --- [BookingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:22:20.722+07:00  INFO 26581 --- [BookingSystem] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:22:20.749+07:00  INFO 26581 --- [BookingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:22:20.756+07:00  INFO 26581 --- [BookingSystem] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:22:23.692+07:00  INFO 26777 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 26777 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:22:23.695+07:00  INFO 26777 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:22:23.829+07:00  INFO 26777 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:22:23.831+07:00  INFO 26777 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:22:25.133+07:00  INFO 26777 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:22:25.241+07:00  INFO 26777 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 86 ms. Found 1 JPA repository interface.
+2025-10-17T17:22:26.213+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:22:26.230+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:22:26.230+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:22:26.298+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:22:26.298+07:00  INFO 26777 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2465 ms
+2025-10-17T17:22:26.638+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:22:26.686+07:00  INFO 26777 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:22:26.716+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:22:27.008+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:22:27.043+07:00  INFO 26777 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:22:27.252+07:00  INFO 26777 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@569ad326
+2025-10-17T17:22:27.254+07:00  INFO 26777 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:22:27.285+07:00  WARN 26777 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:22:27.337+07:00  INFO 26777 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:22:28.288+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-17T17:22:28.377+07:00  INFO 26777 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:22:28.738+07:00  WARN 26777 --- [BookingSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-17T17:22:29.456+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/booking_db'
+2025-10-17T17:22:29.599+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:22:29.654+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 19090 (http) with context path '/'
+2025-10-17T17:22:29.674+07:00  INFO 26777 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Started BookingSystemApplication in 6.821 seconds (process running for 7.68)
+2025-10-17T17:22:29.815+07:00  INFO 26777 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Books : []
+2025-10-17T17:28:20.772+07:00  INFO 26777 --- [BookingSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-10-17T17:28:20.846+07:00  INFO 26777 --- [BookingSystem] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:28:20.995+07:00  INFO 26777 --- [BookingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:28:21.020+07:00  INFO 26777 --- [BookingSystem] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:28:21.049+07:00  INFO 26777 --- [BookingSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:28:21.060+07:00  INFO 26777 --- [BookingSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:28:21.449+07:00  INFO 26777 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 26777 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:28:21.451+07:00  INFO 26777 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:28:21.914+07:00  INFO 26777 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:28:21.942+07:00  INFO 26777 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interface.
+2025-10-17T17:28:22.204+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:28:22.205+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:28:22.206+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:28:22.224+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:28:22.225+07:00  INFO 26777 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 754 ms
+2025-10-17T17:28:22.307+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:28:22.312+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:28:22.344+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:28:22.347+07:00  INFO 26777 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-17T17:28:22.394+07:00  INFO 26777 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@68f715a0
+2025-10-17T17:28:22.395+07:00  INFO 26777 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-17T17:28:22.403+07:00  WARN 26777 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:28:22.405+07:00  INFO 26777 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:28:22.420+07:00 ERROR 26777 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+2025-10-17T17:28:22.425+07:00  WARN 26777 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+2025-10-17T17:28:22.426+07:00  INFO 26777 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-17T17:28:22.428+07:00  INFO 26777 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-17T17:28:22.429+07:00  INFO 26777 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:28:22.449+07:00  INFO 26777 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:28:22.474+07:00 ERROR 26777 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1121) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:1013) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:855) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:848) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:284) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:897) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:811) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:732) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1088) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:419) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:251) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:404) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:266) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:28:43.557+07:00  INFO 28029 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 28029 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:28:43.560+07:00  INFO 28029 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:28:43.689+07:00  INFO 28029 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:28:43.691+07:00  INFO 28029 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:28:44.958+07:00  INFO 28029 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:28:45.079+07:00  INFO 28029 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2025-10-17T17:28:46.052+07:00  INFO 28029 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:28:46.070+07:00  INFO 28029 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:28:46.071+07:00  INFO 28029 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:28:46.129+07:00  INFO 28029 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:28:46.129+07:00  INFO 28029 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2437 ms
+2025-10-17T17:28:46.418+07:00  INFO 28029 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:28:46.464+07:00  INFO 28029 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:28:46.490+07:00  INFO 28029 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:28:46.781+07:00  INFO 28029 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:28:46.822+07:00  INFO 28029 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:28:47.062+07:00  INFO 28029 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@569ad326
+2025-10-17T17:28:47.065+07:00  INFO 28029 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:28:47.103+07:00  WARN 28029 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:28:47.137+07:00  INFO 28029 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:28:47.274+07:00 ERROR 28029 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+2025-10-17T17:28:47.279+07:00  WARN 28029 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+2025-10-17T17:28:47.281+07:00  INFO 28029 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:28:47.313+07:00  INFO 28029 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:28:47.329+07:00  INFO 28029 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:28:47.355+07:00  INFO 28029 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:28:47.384+07:00 ERROR 28029 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1121) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:1013) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:855) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:848) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:284) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:897) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:811) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:732) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1088) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:419) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:251) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:404) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:266) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:28:49.026+07:00  INFO 28064 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 28064 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:28:49.032+07:00  INFO 28064 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:28:49.181+07:00  INFO 28064 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:28:49.182+07:00  INFO 28064 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:28:50.468+07:00  INFO 28064 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:28:50.576+07:00  INFO 28064 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2025-10-17T17:28:51.523+07:00  INFO 28064 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:28:51.540+07:00  INFO 28064 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:28:51.541+07:00  INFO 28064 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:28:51.587+07:00  INFO 28064 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:28:51.587+07:00  INFO 28064 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2402 ms
+2025-10-17T17:28:51.900+07:00  INFO 28064 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:28:51.942+07:00  INFO 28064 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:28:51.966+07:00  INFO 28064 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:28:52.251+07:00  INFO 28064 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:28:52.288+07:00  INFO 28064 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:28:52.491+07:00  INFO 28064 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e9410c0
+2025-10-17T17:28:52.494+07:00  INFO 28064 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:28:52.528+07:00  WARN 28064 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:28:52.567+07:00  INFO 28064 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:28:52.695+07:00 ERROR 28064 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+2025-10-17T17:28:52.700+07:00  WARN 28064 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+2025-10-17T17:28:52.704+07:00  INFO 28064 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:28:52.751+07:00  INFO 28064 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:28:52.756+07:00  INFO 28064 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:28:52.778+07:00  INFO 28064 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:28:52.812+07:00 ERROR 28064 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Property 'com.example.demo.entity.Booking.bookingItem' is not a collection and may not be a '@OneToMany', '@ManyToMany', or '@ElementCollection'
+	at org.hibernate.boot.model.internal.CollectionBinder.determineSemanticJavaType(CollectionBinder.java:1121) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.determineCollectionClassification(CollectionBinder.java:1013) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.createBinderAutomatically(CollectionBinder.java:855) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.getCollectionBinder(CollectionBinder.java:848) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindCollection(CollectionBinder.java:284) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.bindProperty(PropertyBinder.java:897) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.buildProperty(PropertyBinder.java:811) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.PropertyBinder.processElementAnnotations(PropertyBinder.java:732) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.processIdPropertiesIfNotAlready(EntityBinder.java:1088) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:419) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:251) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:404) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:266) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:30:20.022+07:00  INFO 28373 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 28373 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:30:20.026+07:00  INFO 28373 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:30:20.149+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:30:20.151+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:30:21.504+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:30:21.615+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2025-10-17T17:30:22.781+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:30:22.798+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:30:22.798+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:30:22.857+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:30:22.857+07:00  INFO 28373 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2704 ms
+2025-10-17T17:30:23.189+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:30:23.236+07:00  INFO 28373 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:30:23.264+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:30:23.554+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:30:23.592+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:30:23.838+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b783b6d
+2025-10-17T17:30:23.841+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:30:23.878+07:00  WARN 28373 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:30:23.928+07:00  INFO 28373 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:30:24.918+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-17T17:30:25.215+07:00  INFO 28373 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:30:25.629+07:00  WARN 28373 --- [BookingSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-17T17:30:26.351+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/booking_db'
+2025-10-17T17:30:26.470+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:30:26.519+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 19090 (http) with context path '/'
+2025-10-17T17:30:26.543+07:00  INFO 28373 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Started BookingSystemApplication in 7.41 seconds (process running for 8.269)
+2025-10-17T17:30:26.755+07:00  INFO 28373 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Books : []
+2025-10-17T17:44:39.322+07:00  INFO 28373 --- [BookingSystem] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-17T17:44:39.443+07:00  INFO 28373 --- [BookingSystem] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-17T17:44:39.541+07:00  INFO 28373 --- [BookingSystem] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-17T17:44:39.569+07:00  INFO 28373 --- [BookingSystem] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:44:39.599+07:00  INFO 28373 --- [BookingSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:44:39.609+07:00  INFO 28373 --- [BookingSystem] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:44:40.108+07:00  INFO 28373 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 28373 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:44:40.109+07:00  INFO 28373 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:44:40.591+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:44:40.639+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 1 JPA repository interface.
+2025-10-17T17:44:40.941+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:44:40.944+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:44:40.945+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:44:40.969+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:44:40.970+07:00  INFO 28373 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 843 ms
+2025-10-17T17:44:41.050+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:44:41.057+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:44:41.089+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:44:41.092+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-17T17:44:41.151+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@72bdd028
+2025-10-17T17:44:41.153+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-17T17:44:41.169+07:00  WARN 28373 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:44:41.173+07:00  INFO 28373 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:44:41.218+07:00 ERROR 28373 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+2025-10-17T17:44:41.222+07:00  WARN 28373 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+2025-10-17T17:44:41.222+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-17T17:44:41.224+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-17T17:44:41.225+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:44:41.249+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:44:41.276+07:00 ERROR 28373 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1638) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1652) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1613) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1604) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1842) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:44:42.782+07:00  INFO 28373 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 28373 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:44:42.783+07:00  INFO 28373 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:44:43.208+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:44:43.243+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 31 ms. Found 1 JPA repository interface.
+2025-10-17T17:44:43.419+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:44:43.422+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:44:43.422+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:44:43.439+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:44:43.440+07:00  INFO 28373 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 651 ms
+2025-10-17T17:44:43.512+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:44:43.517+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:44:43.539+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:44:43.540+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-10-17T17:44:43.572+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@3a692e6a
+2025-10-17T17:44:43.572+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-10-17T17:44:43.578+07:00  WARN 28373 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:44:43.584+07:00  INFO 28373 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:44:43.626+07:00 ERROR 28373 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+2025-10-17T17:44:43.632+07:00  WARN 28373 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+2025-10-17T17:44:43.632+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-10-17T17:44:43.635+07:00  INFO 28373 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-10-17T17:44:43.636+07:00  INFO 28373 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:44:43.643+07:00  INFO 28373 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:44:43.647+07:00 ERROR 28373 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1638) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1652) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1613) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1604) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1842) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:47:13.505+07:00  INFO 32662 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 32662 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:47:13.509+07:00  INFO 32662 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:47:13.681+07:00  INFO 32662 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:47:13.684+07:00  INFO 32662 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:47:15.120+07:00  INFO 32662 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:47:15.228+07:00  INFO 32662 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 1 JPA repository interface.
+2025-10-17T17:47:16.207+07:00  INFO 32662 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:47:16.223+07:00  INFO 32662 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:47:16.224+07:00  INFO 32662 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:47:16.276+07:00  INFO 32662 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:47:16.277+07:00  INFO 32662 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2588 ms
+2025-10-17T17:47:16.601+07:00  INFO 32662 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:47:16.646+07:00  INFO 32662 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:47:16.671+07:00  INFO 32662 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:47:16.980+07:00  INFO 32662 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:47:17.018+07:00  INFO 32662 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:47:17.283+07:00  INFO 32662 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b76d368
+2025-10-17T17:47:17.286+07:00  INFO 32662 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:47:17.321+07:00  WARN 32662 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:47:17.358+07:00  INFO 32662 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:47:17.604+07:00 ERROR 32662 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+2025-10-17T17:47:17.609+07:00  WARN 32662 --- [BookingSystem] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+2025-10-17T17:47:17.611+07:00  INFO 32662 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-17T17:47:17.637+07:00  INFO 32662 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-17T17:47:17.642+07:00  INFO 32662 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-10-17T17:47:17.668+07:00  INFO 32662 --- [BookingSystem] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-10-17T17:47:17.699+07:00 ERROR 32662 --- [BookingSystem] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.10.jar:6.2.10]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.5.jar:3.5.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.5.jar:3.5.5]
+	at com.example.demo.BookingSystemApplication.main(BookingSystemApplication.java:27) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.5.jar:3.5.5]
+Caused by: org.hibernate.AnnotationException: Collection 'com.example.demo.entity.BookingItem.products' is 'mappedBy' a property named 'booking_item' which does not exist in the target entity 'com.example.demo.entity.Product'
+	at org.hibernate.boot.model.internal.CollectionBinder.isReversePropertyInJoin(CollectionBinder.java:1638) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.noAssociationTable(CollectionBinder.java:1652) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder.bindStarToManySecondPass(CollectionBinder.java:1613) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionBinder$1.secondPass(CollectionBinder.java:1604) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.internal.CollectionSecondPass.doSecondPass(CollectionSecondPass.java:45) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1842) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.processSecondPasses(InFlightMetadataCollectorImpl.java:1800) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:334) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1442) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1513) ~[hibernate-core-6.6.26.Final.jar:6.6.26.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.10.jar:6.2.10]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.10.jar:6.2.10]
+	... 20 common frames omitted
+
+2025-10-17T17:48:59.598+07:00  INFO 33053 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Starting BookingSystemApplication using Java 17.0.12 with PID 33053 (/Users/user/backend-java/booking_system/target/classes started by user in /Users/user/backend-java/booking_system)
+2025-10-17T17:48:59.602+07:00  INFO 33053 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-17T17:48:59.727+07:00  INFO 33053 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-17T17:48:59.728+07:00  INFO 33053 --- [BookingSystem] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-17T17:49:01.079+07:00  INFO 33053 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-17T17:49:01.188+07:00  INFO 33053 --- [BookingSystem] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 1 JPA repository interface.
+2025-10-17T17:49:02.171+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 19090 (http)
+2025-10-17T17:49:02.188+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-17T17:49:02.189+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-10-17T17:49:02.250+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-17T17:49:02.251+07:00  INFO 33053 --- [BookingSystem] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2520 ms
+2025-10-17T17:49:02.553+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-17T17:49:02.599+07:00  INFO 33053 --- [BookingSystem] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-10-17T17:49:02.624+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-17T17:49:02.909+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-17T17:49:02.954+07:00  INFO 33053 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-17T17:49:03.208+07:00  INFO 33053 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d7f28d2
+2025-10-17T17:49:03.210+07:00  INFO 33053 --- [BookingSystem] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-17T17:49:03.252+07:00  WARN 33053 --- [BookingSystem] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-17T17:49:03.294+07:00  INFO 33053 --- [BookingSystem] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-17T17:49:04.223+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-17T17:49:04.659+07:00  INFO 33053 --- [BookingSystem] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-17T17:49:05.068+07:00  WARN 33053 --- [BookingSystem] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-17T17:49:05.819+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/booking_db'
+2025-10-17T17:49:05.936+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-17T17:49:05.991+07:00  INFO 33053 --- [BookingSystem] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 19090 (http) with context path '/'
+2025-10-17T17:49:06.013+07:00  INFO 33053 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Started BookingSystemApplication in 7.233 seconds (process running for 8.155)
+2025-10-17T17:49:06.215+07:00  INFO 33053 --- [BookingSystem] [restartedMain] c.example.demo.BookingSystemApplication  : Books : []

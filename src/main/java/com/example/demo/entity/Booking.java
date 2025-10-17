@@ -14,9 +14,14 @@ public class Booking {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
+    @ManyToOne()
     private User user;
 
+    @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL)
+    private List<BookingItem> booking_items;
+
+    @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL)
+    private List<Payment> payments;
     // @ManyToOne
     // private Hotel hotel;
 

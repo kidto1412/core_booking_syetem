@@ -23,7 +23,7 @@ public class User {
     @Column(nullable = false)
     private String role;
 
-    @OneToMany
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Booking> bookings;
 
     public String setUsername(String username) {

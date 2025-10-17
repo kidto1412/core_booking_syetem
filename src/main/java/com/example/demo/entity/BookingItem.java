@@ -2,12 +2,16 @@ package com.example.demo.entity;
 
 import java.math.BigDecimal;
 import java.util.Date;
+import java.util.List;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 
 @Entity
@@ -31,6 +35,12 @@ public class BookingItem {
 
     @Column(nullable = false)
     private BigDecimal price;
+
+    @ManyToOne()
+    private Booking booking;
+
+    @OneToMany(mappedBy = "booking_item", cascade = CascadeType.ALL)
+    private List<Product> products;
 
     public BookingItem() {
     }
