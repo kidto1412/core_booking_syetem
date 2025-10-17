@@ -1,7 +1,12 @@
 package com.example.demo.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -9,12 +14,18 @@ import java.util.stream.Stream;
 
 @Entity
 @Table(name = "bookings")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+
 public class Booking {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @ManyToOne()
+    @JoinColumn
     private User user;
 
     @OneToMany(mappedBy = "booking", cascade = CascadeType.ALL)
@@ -34,16 +45,9 @@ public class Booking {
     @Enumerated(EnumType.STRING)
     private BookingStatus status; // PENDING, PAID, CANCELLED
 
+    @Column(nullable = false)
+    private BigDecimal total_price;
+
     private LocalDate createdAt;
 
-    // private List<Hotel> hotels;
-
-    public Booking() {
-    }
-
-    // public Booking(String name, Hotel... hotels) {
-    // this.name = name;
-    // this.hotels = Stream.of(hotel).collect(Collectors.toList());
-    // this.hotels.forEach(x -> x.setBooking(this));
-    // }
 }

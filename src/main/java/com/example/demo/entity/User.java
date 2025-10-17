@@ -1,11 +1,21 @@
 package com.example.demo.entity;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
 
 @Entity
 @Table(name = "users")
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
+
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,43 +32,12 @@ public class User {
 
     @Column(nullable = false)
     private String role;
+    private LocalDate createdAt;
 
     @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Booking> bookings;
 
-    public String setUsername(String username) {
-        return this.username = username;
-    }
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    private List<Product> products;
 
-    public String setEmail(String email) {
-        return this.email = email;
-    }
-
-    public String setPassword(String password) {
-        return this.password = password;
-    }
-
-    public String setRole(String role) {
-        return this.role = role;
-    }
-
-    public User() {
-    }
-
-    public User(String username, String password, String role, String email) {
-        this.username = username;
-        this.email = email;
-        this.password = password;
-        this.role = role;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", email='" + email + '\'' +
-                ", role='" + role + '\'' +
-                '}';
-    }
 }
