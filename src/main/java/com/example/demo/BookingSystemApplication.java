@@ -20,18 +20,12 @@ import com.example.demo.repository.UserRepository;
 public class BookingSystemApplication implements CommandLineRunner {
 	public final Logger LOG = LoggerFactory.getLogger(BookingSystemApplication.class);
 
-	@Autowired
-	private UserRepository userRepository;
-
 	public static void main(String[] args) {
 		SpringApplication.run(BookingSystemApplication.class, args);
 	}
 
 	@Override
 	public void run(String... args) throws Exception {
-		User user = new User();
-		List<User> users = userRepository.findAll();
-		LOG.info("Books : " + users);
 
 	}
 
