@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.example.demo.dto.request.UserRequest;
 import com.example.demo.dto.response.UserResponse;
 import com.example.demo.entity.Product;
 import com.example.demo.entity.User;
@@ -31,13 +32,15 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User saveUser(User user) {
-        return userRepository.save(user);
+    public void saveUser(UserRequest request) {
+        User user = BeanMapper.map(request, User.class);
+        userRepository.save(user);
     }
 
     @Override
-    public User updateUser(User user, Long id) {
-        return userRepository.save(user);
+    public void updateUser(UserRequest request, Long id) {
+        User user = BeanMapper.map(request, User.class);
+        userRepository.save(user);
     }
 
     @Override

@@ -10,9 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.constant.Operation;
+import com.example.demo.dto.request.UserRequest;
 import com.example.demo.dto.response.UserResponse;
 import com.example.demo.entity.User;
 import com.example.demo.service.UserService;
+import com.example.demo.util.BeanMapper;
 
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -36,13 +38,13 @@ public class UserController extends BaseController {
     }
 
     @PostMapping()
-    public Operation saveProduct(@Valid @RequestBody User user) {
-        userService.saveUser(user);
+    public Operation saveProduct(@Valid @RequestBody UserRequest request) {
+        userService.saveUser(request);
         return Operation.CREATED;
     }
 
     @PutMapping("/{id}")
-    public Operation updateUser(@PathVariable Long id, @Valid @RequestBody User user) {
+    public Operation updateUser(@PathVariable Long id, @Valid @RequestBody UserRequest user) {
         userService.updateUser(user, id);
         return Operation.UPDATED;
     }
