@@ -9,6 +9,8 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.constant.Operation;
+import com.example.demo.dto.response.UserResponse;
 import com.example.demo.entity.User;
 import com.example.demo.service.UserService;
 
@@ -23,29 +25,31 @@ import jakarta.validation.Valid;;
 
 @RestController
 @RequestMapping("api/user")
-public class UserController {
+public class UserController extends BaseController {
 
     @Autowired
     private UserService userService;
 
     @GetMapping
-    public ResponseEntity<List<User>> getAllUsers() {
-        return new ResponseEntity<>(userService.findAllUsers(), HttpStatus.OK);
+    public List<UserResponse> getAllUsers() {
+        return userService.findAllUsers();
     }
 
     @PostMapping()
-    public ResponseEntity<User> saveProduct(@Valid @RequestBody User user) {
-        return new ResponseEntity<>(userService.saveUser(user), HttpStatus.OK);
+    public Operation saveProduct(@Valid @RequestBody User user) {
+        userService.saveUser(user);
+        return Operation.CREATED;
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<User> updateUser(@PathVariable Long id, @Valid @RequestBody User user) {
-        return new ResponseEntity<>(userService.updateUser(user, id), HttpStatus.OK);
+    public Operation updateUser(@PathVariable Long id, @Valid @RequestBody User user) {
+        userService.updateUser(user, id);
+        return Operation.UPDATED;
     }
 
     @DeleteMapping("/{id}")
-    public String deleteUser(@PathVariable Long id) {
+    public Operation deleteUser(@PathVariable Long id) {
         userService.deleteUser(id);
-        return "Delete suskses";
+        return Operation.DELETED;
     }
 }
