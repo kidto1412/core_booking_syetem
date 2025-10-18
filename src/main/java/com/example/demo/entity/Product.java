@@ -45,9 +45,8 @@ public class Product {
     private String description;
     private LocalDate createdAt;
 
-    @ManyToOne()
-    @JoinColumn
-    private BookingItem booking_item;
+    @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
+    private List<BookingItem> booking_item;
 
     @OneToMany(mappedBy = "product", cascade = CascadeType.ALL)
     private List<ProductAttribute> productAttributes;

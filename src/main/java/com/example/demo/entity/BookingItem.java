@@ -53,7 +53,7 @@ public class BookingItem {
     @JoinColumn
     private Booking booking;
 
-    @OneToMany(mappedBy = "booking_item", cascade = CascadeType.ALL)
-    private List<Product> products;
+    @ManyToOne()
+    private Product product;
 
 }
