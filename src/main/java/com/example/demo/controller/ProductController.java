@@ -11,12 +11,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.example.demo.constant.Operation;
 import com.example.demo.dto.request.ProductRequest;
-import com.example.demo.dto.request.UserRequest;
 import com.example.demo.dto.response.ProductResponse;
-import com.example.demo.dto.response.UserResponse;
 import com.example.demo.service.ProductService;
 
 import jakarta.validation.Valid;
